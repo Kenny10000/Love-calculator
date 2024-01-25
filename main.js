@@ -49,7 +49,7 @@ else if (randomNumber >= 25) {
     <b>
     <p style="color:red;">You and ${loveName.value} match</p>
     <b style="font-size:1em;">${randomNumber}%</b>
-    <p style="color:white;"> ${playerName.value} Danger zone!!! Dey plan your japa</p>
+    <p style="color:white;"> ${playerName.value} danger zone!!! dey plan your japa</p>
     </h1>
     `
     loveName.value == "";
