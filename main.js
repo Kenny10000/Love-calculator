@@ -20,5 +20,39 @@ err.style.display = "block"
     `
     loveName.value == "";
     playerName.value == "";
+}else if (randomNumber >= 50) {
+    show.innerHTML = `
+    <h1 class="display-6"> <b style="font-size:1em;">⁉⁉⁉</b>
+    <b>
+    <p style="color:blue;">You and ${loveName.value} match</p>
+    <b style="font-size:1em;">${randomNumber}%</b>
+    <p style="color:white;"> ${playerName.value}!! dey play oh 😁🙄</p>
+    </h1>
+    `
+    loveName.value == "";
+    playerName.value == "";
+}else if (randomNumber >= 35) {
+    show.innerHTML = `
+    <h1 class="display-6"> <b style="font-size:1em;">😆😅😂</b>
+    <b>
+    <p style="color:yellow;">You and ${loveName.value} match</p>
+    <b style="font-size:1em;">${randomNumber}%</b>
+    <p style="color:white;"> ${playerName.value} Don't trust ${loveName.value}🤣🤪</p>
+    </h1>
+    `
+    loveName.value == "";
+    playerName.value == "";
+}
+else if (randomNumber >= 25) {
+    show.innerHTML = `
+    <h1 class="display-6"> <b style="font-size:1em;">😆😅😂</b>
+    <b>
+    <p style="color:red;">You and ${loveName.value} match</p>
+    <b style="font-size:1em;">${randomNumber}%</b>
+    <p style="color:white;"> ${playerName.value} Danger zone!!! Dey plan your japa</p>
+    </h1>
+    `
+    loveName.value == "";
+    playerName.value == "";
 }
 }
