@@ -15,7 +15,7 @@ err.style.display = "block"
     <b>
     <p style="color:rgb(4, 254, 25);">You and ${loveName.value} match</p>
     <b style="font-size:1em;">${randomNumber}%</b>
-    <p style="color:white;">You'll not want to lose ${playerName.value}</p>
+    <p style="color:white;">You will not want to lose ${playerName.value}</p>
     </h1>
     `
     loveName.value == "";
