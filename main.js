@@ -1,5 +1,7 @@
 function Calculate(){
 
+    // let playerName = playerName.value
+    // let loveName = loveName.value
 let randomNumber = Math.round(Math.random()*99)
 
 if (playerName.value == "" || playerName.value == ""){
@@ -11,7 +13,7 @@ err.style.display = "block"
     )
 }else if (randomNumber >= 70) {
     show.innerHTML = `
-    <h1 class="display-6"> <b style="font-size:1em;">✔✔✔</b>
+    <h1 class="display-6"> <b style="font-size:1em;">✔✔👏</b>
     <b>
     <p style="color:rgb(4, 254, 25);">You and ${loveName.value} match</p>
     <b style="font-size:1em;color:rgb(4, 254, 25);">${randomNumber}%</b>
