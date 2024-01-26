@@ -41,7 +41,7 @@ err.style.display = "block"
 }else if (randomNumber >= 35) {
     show.innerHTML = `
     <div class="p-2">
-    <h12> <b style="font-size:1em;">😆😅😂</b>
+    <h2> <b style="font-size:1em;">😆😅😂</b>
     <b>
     <p style="color:yellow;">You and ${loveName.value} match</p>
     <b style="font-size:1em;color:yellow;">${randomNumber}%</b>
