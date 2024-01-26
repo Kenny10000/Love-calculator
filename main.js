@@ -14,7 +14,7 @@ err.style.display = "block"
 }else if (randomNumber >= 70) {
     show.innerHTML = `
     <div class="p-2">
-    <h2 class="animate__animated animate__bounce animate__heartBeat"><b style="font-size:1em;">✔✔👏</b>
+    <h2 class="animate__animated animate__bounce animate__heartBeat"><b style="font-size:1em;">💖💖😍</b>
     <b>
     <p style="color:rgb(4, 254, 25);">You and ${loveName.value} match</p>
     <b style="font-size:1em;color:rgb(4, 254, 25);">${randomNumber}%</b>
@@ -28,7 +28,7 @@ err.style.display = "block"
 }else if (randomNumber >= 50) {
     show.innerHTML = `
     <div class="p-2">
-    <h2 class="animate__animated animate__bounce animate__heartBeat"> <b style="font-size:1em;">⁉⁉⁉</b>
+    <h2 class="animate__animated animate__bounce animate__heartBeat"> <b style="font-size:1em;">😀💖😘</b>
     <b>
     <p style="color:blue;">You and ${loveName.value} match</p>
     <b style="font-size:1em;color:blue;">${randomNumber}%</b>
@@ -41,7 +41,7 @@ err.style.display = "block"
 }else if (randomNumber >= 35) {
     show.innerHTML = `
     <div class="p-2">
-    <h2 class="animate__animated animate__bounce animate__heartBeat"> <b style="font-size:1em;">😆😅😂</b>
+    <h2 class="animate__animated animate__bounce animate__heartBeat"> <b style="font-size:1em;">😆😅💖</b>
     <b>
     <p style="color:yellow;">You and ${loveName.value} match</p>
     <b style="font-size:1em;color:yellow;">${randomNumber}%</b>
@@ -55,7 +55,7 @@ err.style.display = "block"
 else if (randomNumber >= 25) {
     show.innerHTML = `
     <div class="p-2">
-    <h2 class="animate__animated animate__bounce animate__heartBeat"> <b style="font-size:1em;">😆😅😂</b>
+    <h2 class="animate__animated animate__bounce animate__heartBeat"> <b style="font-size:1em;">😂😅😂</b>
     <b>
     <p style="color:red;">You and ${loveName.value} match</p>
     <b style="font-size:1em;color:red;">${randomNumber}%</b>
